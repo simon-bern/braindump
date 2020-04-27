@@ -134,7 +134,7 @@ def form():
     formhtml += "</div>"
     formhtml += "</form>"
     return formhtml
-    
+
 # Funtion to return ordered list of UCI downhill mountain bike rankings
 def orderedList():
     listdata = '<ol>'
