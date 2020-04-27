@@ -55,7 +55,7 @@ def time():
     now = datetime.now()
     newString = now.strftime('<br><br>%m/%d/%Y, %H:%M:%S')
     return newString
-    
+
 # Function to define title, open HTML, and open body of HTML webpage
 def heading_start():
     heading_start_html = '<!-- Opening of HTML webpage until opening of body -->'
