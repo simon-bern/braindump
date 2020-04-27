@@ -81,7 +81,7 @@ def header2(myString):
 def header3(myString):
     newString = '<h3>' + myString + '</h3>'
     return newString
- 
+
 # Function to format a HTML paragraph, passing argument as the paragraph text
 def paragraph(myParagraph):
     newString = '<p>' + myParagraph + '<p>'
