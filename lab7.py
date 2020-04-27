@@ -1,6 +1,6 @@
 # Simon Ebelhar
 # 10/05/2019
-# SDEV300 
+# SDEV300
 
 from flask import Flask
 from datetime import datetime
@@ -67,22 +67,22 @@ def heading_start():
     heading_start_html +='<body>'
     return heading_start_html
 
-# Function to format a 1st level HTML heading, passing argument as the heading text   
+# Function to format a 1st level HTML heading, passing argument as the heading text
 def header1(myString):
     newString = '<h1>' + myString + '</h1>'
     return newString
 
-# Function to format a 2nd level HTML heading, passing argument as the heading text   
+# Function to format a 2nd level HTML heading, passing argument as the heading text
 def header2(myString):
     newString = '<h2>' + myString + '</h2>'
     return newString
 
-# Function to format a 3rd level HTML heading, passing argument as the heading text 
+# Function to format a 3rd level HTML heading, passing argument as the heading text
 def header3(myString):
     newString = '<h3>' + myString + '</h3>'
     return newString
  
-# Function to format a HTML paragraph, passing argument as the paragraph text 
+# Function to format a HTML paragraph, passing argument as the paragraph text
 def paragraph(myParagraph):
     newString = '<p>' + myParagraph + '<p>'
     return newString
@@ -135,7 +135,7 @@ def form():
     formhtml += "</form>"
     return formhtml
     
-# Funtion to return ordered list of UCI downhill mountain bike rankings   
+# Funtion to return ordered list of UCI downhill mountain bike rankings
 def orderedList():
     listdata = '<ol>'
     listdata += '<li> Loic Bruni </li>'
@@ -170,5 +170,5 @@ def heading_close():
     heading_close_html = '</body>'
     heading_close_html += '</html>'
     return heading_close_html
-    
+
 app.run(host='0.0.0.0', port= 8080)
